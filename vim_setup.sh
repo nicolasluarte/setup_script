@@ -10,4 +10,7 @@ git clone https://github.com/nicolasluarte/nvim-config.git $HOME/.repos/nvim
 ln -s $HOME/.repos/nvim/init.vim $HOME/.config/nvim/init.vim
 ln -s $HOME/.repos/nvim/plug-config $HOME/.config/nvim
 pip3 install --user jedi
-
+sudo pacman -S ripgrep
+yay -S universal-ctags-git
+sudo pacman -S the_silver_searcher
+sudo pacman -S fd
