@@ -9,4 +9,5 @@ mkdir -p $HOME/.repos/zsh
 git clone https://github.com/nicolasluarte/zsh_config.git $HOME/.repos/zsh
 sudo rm $HOME/.zshrc
 ln -s $HOME/.repos/zsh/.zshrc $HOME/.zshrc
+ln -s $HOME/.repos/zsh/.zprofile $HOME/.zprofile
 
